@@ -1,0 +1,121 @@
+@font-face {
+    font-family: lobster;
+    src: url(Lobster-Regular.ttf);
+}
+@font-face {
+    font-family: montserrat;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+.lobster{
+    font-family: lobster;
+}
+body{
+    background: #E8E8E8;
+    min-height: 100vh;
+    margin: 0;
+}
+.Logobar{
+    background: rgba(255, 255, 255, 0.60);
+    width: 100%;
+    height: 103px;
+    flex-shrink: 0;
+}
+#logo1{
+    padding-top: 18px;
+    padding-left: 15px;
+}
+.intro{
+    width: 700px;
+    height: 600px;
+    flex-shrink: 0;
+    margin-left: 230px;
+    margin-top: 150px;
+}
+.iline1{
+    width: 100%;
+    height: 40px;
+    flex-shrink: 0;
+    color: #4B4B4B;
+    text-align: center;
+    font-family: montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.redlite{
+    opacity: 0.6000000238418579;
+    color: #FF0031;
+    font-family: montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.iline2{
+    color: #000;
+    text-align: center;
+    font-family: montserrat;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+.red1{
+    color: #FF0031;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.button{
+    padding-left: 35%;
+    padding-top: 30px;
+}
+#button1{
+    font-family: montserrat;
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #F00;
+    border-radius: 45px;
+    cursor: pointer;
+    border: 0;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.60);
+    transition: all 0.3s ease 0s;
+}
+.iline3{
+    width: 80%;
+    height: 68px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 65px;
+    margin-top: 50px;
+}
+#books_design{
+    float: right;
+    height: 100vh;
+}
+#button1:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 15px 20px rgba(195, 10, 10, 0.792);
+    color: #ff0000;
+    transform: translateY(-7px);
+  }
+#button1:active{
+    transform: translateY(5px);
+}
