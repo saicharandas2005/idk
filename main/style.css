@@ -1,0 +1,83 @@
+body {
+  background: #ececdd;
+}
+
+h1 {
+  color: #fff;
+  padding: 10px 0;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s;
+  border: none;
+  border-radius: 4px;
+  background-color: #000;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  width: 190px;
+  height: 270px;
+  margin :30px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover .play-button {
+  display: block;
+}
+
+.card a {
+  color: #fff;
+}
+
+.card a:hover {
+  text-decoration: none;
+}
+
+.card-img-top {
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.card-body {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(to top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+  padding: 15px;
+  width: 100%;
+}
+
+.card-title {
+  font-size: 16px;
+  margin-bottom: 0px;
+  color: pink;
+}
+
+.card-text {
+  display: none; 
+}
+
+#book-info-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  
+}
+.modal-body {
+  font-size: 14px;
+}
+@media (max-width: 576px) {
+  .card-columns {
+    column-count: 1;
+  }
+}
+@media (min-width: 576px) {
+  .card-columns {
+    column-count: 2;
+  }
+}
